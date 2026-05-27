@@ -1,2 +1,2 @@
 # group-3-ml-project
-This is the very first ml project of group 3
+this branch is for testing the embedding
