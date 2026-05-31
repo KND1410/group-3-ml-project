@@ -18,7 +18,7 @@ This project implements a complete Natural Language Processing (NLP) pipeline to
 
 ## 🛠️ Tech Stack & Libraries
 * **Language:** Python
-* **Machine Learning:** Scikit-Learn (`LogisticRegression`, `GaussianNB`, `MultinomialNB`)
+* **Machine Learning:** Scikit-Learn (`LogisticRegression`, `MultinomialNB`)
 * **NLP & Embeddings:** Gensim (`Word2Vec`)
 * **Data Manipulation & Math:** Pandas, NumPy
 * **Visualization:** Matplotlib (Confusion Matrices)
