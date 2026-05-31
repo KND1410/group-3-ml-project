@@ -11,7 +11,7 @@ This project implements a complete Natural Language Processing (NLP) pipeline to
 * **Source:** https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 ## 👥 Team Members
-* **Nguyen Minh Hoang**: Project management, Error analysis
+* **Nguyễn Minh Hoàng**: Project manager, Error analysis
 * **Nguyễn Đăng Khôi**: Data
 * **Nguyễn Xuân Dương**: Baseline model
 * **Vũ Trần Nam Khánh**: Improvement
