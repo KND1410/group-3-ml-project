@@ -7,7 +7,7 @@ This project implements a complete Natural Language Processing (NLP) pipeline to
 
 * **Dataset:** IMDb Movie Reviews Dataset (lakshmi25npathi on Kaggle) — 50,000 highly polarized movie reviews, featuring raw text string data and binary sentiment labels (positive/negative).
 * **Task:** Classify the sentiment of each movie review into one of two categories — Positive or Negative — by converting raw text into mathematical representations to analyze semantic context, tone, and vocabulary.
-* **Type:** Binary classification (2 classes). Baseline = one-hot-encoding, bag-of-words and TF-IDF Vectorization with Multinomial Naive Bayes / Logistic Regression; improved version utilizes custom 193-dimensional Word2Vec embeddings coupled with hyperparameter-tuned Logistic Regression.
+* **Type:** Binary classification (2 classes). Baseline = one-hot-encoding, bag-of-words and TF-IDF Vectorization with Multinomial Naïve Bayes / Logistic Regression; improved version utilizes certain custom dimensional Word2Vec embeddings coupled with Logistic Regression and Naïve Bayes.
 * **Source:** https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 ## 👥 Team Members
@@ -59,13 +59,14 @@ The exact prompt we used is documented in `LLM.ipynb` .
 
 | Model Architecture | Training Score | Testing Score | Train/Test Gap |
 | :--- | :--- | :--- | :--- |
-| **One-hot-encoding + Naive Bayes** | 84.52% | 84.33% | 0.19% |
+| **One-hot-encoding + Naïve Bayes** | 84.52% | 84.33% | 0.19% |
 | **One-hot-encoding + Logistic Regression** | 89.32% | 86.99% | 2.33% |
-| **Bag-of-words + Naive Bayes** | 83.79% | 83.41% | 0.38% |
+| **Bag-of-words + Naïve Bayes** | 83.79% | 83.41% | 0.38% |
 | **Bag-of-words + Logistic Regression** | 89.32% | 86.63% | 2.69% |
-| **TF-IDF + Naive Bayes** | 84.77% | 84.29% | 0.48% |
+| **TF-IDF + Naïve Bayes** | 84.77% | 84.29% | 0.48% |
 | **TF-IDF + Logistic Regression** | 89.32% | 87.11% | 2.21% |
-| **Word2Vec + Logistic Regression** | **91.28%** | **89.03%** | **Optimal Champion** |
+| **Word2Vec + Naïve Bayes**| 82.26% | 81.58% | 0.68% |
+| **Word2Vec + Logistic Regression** | 88.70% | 88.58% | 0.12% |
 
 ## The AI assistant helped to do:
 * Feature Engineering Helper
